@@ -1,0 +1,38 @@
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"	
+	xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+	<foaf:maker rdf:resource="#me"/>
+	<foaf:primaryTopic rdf:resource="#me"/>
+
+	<admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+	<admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+
+<foaf:Person rdf:ID="me">
+
+
+    <foaf:name>Ernesto</foaf:name>
+    <foaf:givenname>Díaz</foaf:givenname>
+    <foaf:family_name>Maya</foaf:family_name>
+    <foaf:carrera>Ingeniería en Software</foaf:carrera>
+    <foaf:phone rdf:resource ="tel:55353535"/>
+    <foaf:homepage rdf:resource ="betacoding.net"/>
+
+
+<foaf:knows>
+<foaf:Person>
+
+
+    <foaf:name>Ivan</foaf:name>
+    <foaf:givenname>Juaraz</foaf:givenname>
+    <foaf:family_name>Reyes</foaf:family_name>
+    <foaf:carrera>Licenciado en Derecho</foaf:carrera>
+    <foaf:phone rdf:resource ="tel:55363565"/>
+    <foaf:homepage rdf:resource ="betacoding.net"/>
+</foaf:Person>
+</foaf:knows>
+</foaf:Person>
+</rdf:RDF>
